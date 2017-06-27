@@ -1,17 +1,6 @@
-# Vector Tiles Workshop
+# Vector Tiles
 
-We will start with a [presentation](https://maptime-ams.github.io/vector-tiles-workshop/)
-
-In the [workshop](https://github.com/maptime-ams/vector-tiles-workshop/wiki) we will give you:
-
-- a full code example of how to make a map with the Mapbox GL js library
-- a endpoint where to find your tiles 
-- a standard style for you to edit
-
-Optional: 
-
-- How to make your own vector tiles
-- How to donwload OSM vector tiles
+Bekijk de [presentatie](https://emacgillavry.github.io/foss4gnl-vector-tiles/)
 
 ## What are Vector Tiles
 
@@ -32,21 +21,10 @@ As the name suggests, vector tiles contain vector data instead of the rendered i
 https://www.mapbox.com/vector-tiles/
 https://www.mapbox.com/vector-tiles/specification/
 
-## We will work with the Protocol buffers (Mapbox) standards 
-
 Mapbox have defined an open standard for vector map tiles called "vector-tile-spec" which uses Google protocol buffers for space-efficient data serialisation. Web Mercator is the projection of reference, but vector tiles may be used to represent data with any projection and tile extent scheme. It is also tied to the Mapnik rendering engine, using a "serialized version of the internal data that Mapnik uses".
 
-
-# The workshop
-
-
-The full workshop is in the wiki. Take me [< THERE! >](https://github.com/maptime-ams/vector-tiles-workshop/wiki)
-
-A really short outline:
-
-## Getting the code. 
-
-1. Download this repository on you own device.
-2. Open the index.html
-3. See your map!
-4. Style your map!
+Hartelijk dank aan:
+* [Niene Boeijen](https://github.com/maptime-ams/vector-tiles-workshop) voor de opzet van de presentatie voor de Vector Tile Workshop tijdens [Maptime Amsterdam](https://www.meetup.com/Maptime-AMS/events/240179385/)
+* [Datalab Amsterdam](https://www.amsterdam.nl/bestuur-organisatie/organisatie/overige/datalab-amsterdam/) voor vector tiling Proof of Concept voor 
+[Amsterdam City Data](https://data.amsterdam.nl)
+* [Kadaster/PDOK](http://www.kadaster.nl) voor de vector tiles sessies tijdens Innovation Friday en de High Five
